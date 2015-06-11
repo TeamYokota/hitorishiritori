@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/EditTextSpeech"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/ButtonSpeech"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="天気予報" />
+    <Button
+        android:id="@+id/ButtonSpeech2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Speech" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/ButtonSlow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Slow" />
+
+        <Button
+            android:id="@+id/ButtonNormal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Normal" />
+
+        <Button
+            android:id="@+id/ButtonFast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fast" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/ButtonLowPitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Low" />
+
+        <Button
+            android:id="@+id/ButtonNormalPitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Normal" />
+
+        <Button
+            android:id="@+id/ButtonHighPitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="High" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
